@@ -1851,8 +1851,6 @@ find_special_devices
 
 declare -a MENU_ITEMS
 
-#?? ESTÁ MOSTRANDO O MENU DE CRÉDITOS NA PRIMEIRA VEZ QUE CHAMA A FUNÇÃO SET AUTO RESTORE??
-
 MENU_ITEMS+=(1 "Backup flash")
 
 MENU_ITEMS+=(2 "Restore flash")
