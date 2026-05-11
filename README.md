@@ -63,7 +63,7 @@ O Multitool é um sistema Linux mínimo que roda diretamente de um cartão SD, p
 Sistema baseado em Debian. Instale as dependências:
 
 ```sh
-sudo apt install multistrap squashfs-tools parted dosfstools ntfs-3g dialog zenity
+sudo apt install multistrap squashfs-tools parted dosfstools ntfs-3g qemu-user-static debian-keyring debian-archive-keyring dialog zenity
 ```
 
 Clone o repositório:
